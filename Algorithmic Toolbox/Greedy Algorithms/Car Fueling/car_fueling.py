@@ -24,7 +24,7 @@ def compute_min_number_of_refills(d, m, stops):
 
     if f >= 0 and stops[-1]-stops[-2] <= f:
         return refill
-    elif f >= 0 and stops[-1]-stops[-2] > f and stops[-1]-stops[-2] <= m:
+    elif 0 <= f < stops[-1] - stops[-2] <= m:
         refill += 1
         return refill
     elif f < 0 or stops[-1]-stops[-2] > m:

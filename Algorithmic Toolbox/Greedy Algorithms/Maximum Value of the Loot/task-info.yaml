@@ -6,15 +6,15 @@ files:
 - name: maximum_loot.py
   visible: true
   placeholders:
-  - offset: 318
-    length: 9
+  - offset: 806
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 318
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -42,15 +42,15 @@ files:
 - name: maximum_loot_unit_tests.py
   visible: true
   placeholders:
-  - offset: 282
-    length: 9
+  - offset: 270
+    length: 34
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 282
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from maximum_loot import maximum_loot_value
@@ -97,5 +97,8 @@ files:
             passed()
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Don't just delete task text
+  time: Sun, 23 May 2021 18:07:47 UTC
 record: -1

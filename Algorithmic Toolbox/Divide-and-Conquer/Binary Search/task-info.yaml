@@ -4,23 +4,23 @@ files:
   visible: true
   placeholders:
   - offset: 241
-    length: 9
+    length: 14
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 241
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-  - offset: 520
-    length: 9
+    selected: true
+    status: Failed
+  - offset: 513
+    length: 48
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 520
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from binary_search import binary_search, linear_search
@@ -105,15 +105,15 @@ files:
 - name: binary_search.py
   visible: true
   placeholders:
-  - offset: 288
-    length: 9
+  - offset: 292
+    length: 254
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 288
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -141,5 +141,9 @@ files:
             print(binary_search(input_keys, q), end=' ')
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Some unit tests failed. Please fix your code, ensure that all unit tests
+    pass, and try again.
+  time: Mon, 24 May 2021 17:36:09 UTC
 record: -1
